@@ -1,0 +1,908 @@
+.background29 {
+  align-self: stretch;
+  height: 2247px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.logo-icon29 {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  z-index: 1;
+}
+.logo-wrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.renovahome28 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-parent19 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.home28 {
+  display: inline-block;
+  min-width: 52px;
+}
+.about-us32,
+.home28,
+.services36 {
+  position: relative;
+  line-height: 125%;
+  cursor: pointer;
+  z-index: 1;
+}
+.about-us32 {
+  width: 78px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services36 {
+  display: inline-block;
+  min-width: 71px;
+}
+.project18 {
+  width: 58px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.blog16,
+.contact35,
+.project18 {
+  position: relative;
+  line-height: 125%;
+  z-index: 1;
+}
+.blog16 {
+  width: 39px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact35 {
+  display: inline-block;
+  min-width: 64px;
+}
+.navigation2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navigation-container {
+  width: 517px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi-5) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-jost);
+}
+.frame-parent18,
+.frame-wrapper6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent18 {
+  width: 1194px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper6 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-7xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-serif-display);
+}
+.images-icon9 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.realization15 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 63px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.realization-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 var(--padding-2xl);
+}
+.home-services3 {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+  cursor: pointer;
+}
+.banner14,
+.frame-parent17,
+.intro13 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.intro13 {
+  width: 503px;
+  border-radius: var(--br-18xl) var(--br-18xl) 0 0;
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-22xl) var(--padding-xl);
+  z-index: 1;
+}
+.banner14,
+.frame-parent17 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.banner14 {
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-159xl) var(--padding-xl) 0;
+  position: relative;
+  z-index: 1;
+}
+.frame-parent17 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  gap: var(--gap-26xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-serif-display);
+}
+.embark-on-a2 {
+  width: 655px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.embark-on-a-journey-of-transfo-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.crafting-your-dream2,
+.into-reality2,
+.satisfaction-guranteed,
+.transforming-dream-house2 {
+  margin: 0;
+}
+.satisfaction-guranteed-crafti-container1 {
+  width: 100%;
+}
+.satisfaction-guranteed-crafti-container {
+  margin: 0;
+  height: 420px;
+  width: 443px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 443px;
+  max-width: 100%;
+  z-index: 1;
+}
+.here-our-skilled1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.here-our-skilled-craftsmen-an-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-85xl) 0 0;
+  box-sizing: border-box;
+  min-width: 426px;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-jost);
+}
+.satisfaction-guranteed-crafti-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-78xl);
+  margin-top: -76px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-serif-display);
+}
+.background-child,
+.frame-parent20,
+.satisfaction-guranteed-crafti-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent20 {
+  width: 1195px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.background-child {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-burlywood);
+  font-family: var(--font-jost);
+}
+.play-button-icon1,
+.video-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.play-button-icon1 {
+  z-index: 2;
+  object-fit: contain;
+  top: 10px;
+  transform: scale(1.343);
+}
+.wrapper-play-button1 {
+  position: absolute;
+  top: 128px;
+  left: 534px;
+  width: 132px;
+  height: 116.7px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-parent {
+  height: 372.7px;
+  width: 1200px;
+  position: relative;
+  max-width: 100%;
+}
+.background-inner2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-20xl-3) var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-icon61 {
+  width: 600px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.we-elevates-projects2,
+.we-innovate-dreams2,
+.we-renovate-reality2 {
+  margin: 0;
+}
+.we-innovate-dreams-container2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.sub-content52 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.our-projects2 {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 23px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 106px;
+}
+.vector-icon11 {
+  height: 13.2px;
+  width: 15.1px;
+  position: relative;
+}
+.our-portfolio2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-11xs);
+  gap: var(--gap-smi);
+}
+.button14,
+.content36 {
+  display: flex;
+  flex-direction: column;
+}
+.button14 {
+  box-shadow: 0 10px 20px rgba(192, 192, 192, 0.35);
+  border-radius: var(--br-lg);
+  background-color: var(--color-darkslategray);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xl) var(--padding-21xl);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-jost);
+}
+.content36 {
+  width: 518px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  min-width: 518px;
+  max-width: 100%;
+}
+.result-wrapper1,
+.result3 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.result3 {
+  width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.result-wrapper1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-9xs) var(--padding-3xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-serif-display);
+}
+.logo-icon30 {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  z-index: 1;
+}
+.logo-wrapper5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.renovahome29 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.frame-parent24 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.building-dreams-crafting14 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+  z-index: 1;
+}
+.frame-parent23 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.div148 {
+  width: 16px;
+}
+.div148,
+.div149,
+.div150,
+.div151 {
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.div149 {
+  width: 18px;
+  min-width: 18px;
+}
+.div150,
+.div151 {
+  min-width: 16px;
+}
+.div151 {
+  width: 17px;
+  font-size: var(--font-size-lgi);
+  line-height: 23px;
+  min-width: 17px;
+}
+.social-media2 {
+  width: 225px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.frame-parent22,
+.utility14 {
+  font-family: var(--font-dm-serif-display);
+  color: var(--color-darkslategray);
+}
+.frame-parent22 {
+  width: 393px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+}
+.utility14 {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 125%;
+  display: inline-block;
+  min-width: 69px;
+  z-index: 1;
+}
+.home29 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 42px;
+  cursor: pointer;
+  z-index: 2;
+}
+.about-us33 {
+  height: 36px;
+  line-height: 300%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+.about-us33,
+.blogs14,
+.projects16,
+.teams14 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.projects16 {
+  line-height: 42px;
+  cursor: pointer;
+  z-index: 4;
+}
+.blogs14,
+.teams14 {
+  line-height: 300%;
+}
+.blogs14 {
+  height: 37px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 5;
+}
+.teams14 {
+  z-index: 6;
+}
+.footer-navigation5 {
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.services37 {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 125%;
+  font-family: var(--font-dm-serif-display);
+  color: var(--color-darkslategray);
+  display: inline-block;
+  min-width: 94px;
+  z-index: 1;
+}
+.project-plan16,
+.realization16,
+.renovation-work16 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 300%;
+  cursor: pointer;
+}
+.project-plan16 {
+  display: inline-block;
+  min-width: 112px;
+  z-index: 2;
+}
+.realization16,
+.renovation-work16 {
+  z-index: 3;
+}
+.realization16 {
+  display: inline-block;
+  min-width: 103px;
+  z-index: 4;
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 161px;
+}
+.contact36 {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  min-width: 87px;
+  z-index: 1;
+}
+.jakarta-indonesia-renovahome29 {
+  line-height: 150%;
+}
+.com14 {
+  line-height: 300%;
+}
+.jakarta-indonesia-renovahome28,
+.p17 {
+  margin: 0;
+}
+.p17 {
+  line-height: 300%;
+}
+.jakarta-indonesia-renovahome-container19 {
+  align-self: stretch;
+  height: 182px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.contact-parent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  min-width: 168px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-serif-display);
+}
+.frame-parent25 {
+  width: 479px;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.footer11,
+.frame-parent21,
+.frame-parent25 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent21 {
+  width: 1199px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footer11 {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-jost);
+}
+.background28,
+.services-realization {
+  display: flex;
+  justify-content: flex-start;
+}
+.background28 {
+  flex: 1;
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-25xl) 0 var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-43xl);
+  max-width: 100%;
+}
+.services-realization {
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .satisfaction-guranteed-crafti-parent {
+    gap: var(--gap-29xl);
+  }
+  .content36,
+  .image-icon61 {
+    flex: 1;
+  }
+  .frame-parent21,
+  .result3 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .background28 {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .navigation2 {
+    display: none;
+  }
+  .navigation-container {
+    width: 0;
+  }
+  .realization15 {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+  .satisfaction-guranteed-crafti-container {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+    flex: 1;
+  }
+  .satisfaction-guranteed-crafti-parent {
+    flex-wrap: wrap;
+  }
+  .we-innovate-dreams-container2 {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+  .renovahome29 {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .background28 {
+    gap: var(--gap-12xl);
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent17 {
+    gap: var(--gap-3xl);
+  }
+  .here-our-skilled-craftsmen-an-wrapper,
+  .satisfaction-guranteed-crafti-container {
+    min-width: 100%;
+  }
+  .satisfaction-guranteed-crafti-parent {
+    gap: var(--gap-5xl);
+  }
+  .content36 {
+    gap: var(--gap-base);
+    min-width: 100%;
+  }
+  .frame-parent25 {
+    gap: var(--gap-11xl);
+  }
+  .background28 {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .realization15 {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+  .home-services3 {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .banner14 {
+    padding-top: var(--padding-97xl);
+    box-sizing: border-box;
+  }
+  .embark-on-a2 {
+    font-size: var(--font-size-xl);
+    line-height: 30px;
+  }
+  .satisfaction-guranteed-crafti-container {
+    font-size: var(--font-size-3xl);
+    line-height: 27px;
+  }
+  .here-our-skilled1 {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .here-our-skilled-craftsmen-an-wrapper {
+    padding-top: var(--padding-77xl);
+    box-sizing: border-box;
+  }
+  .we-innovate-dreams-container2 {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+  .renovahome29 {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .building-dreams-crafting14 {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .frame-parent22 {
+    gap: var(--gap-mini);
+  }
+  .utility14 {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+  .about-us33,
+  .home29 {
+    font-size: var(--font-size-lg);
+    line-height: 34px;
+  }
+  .about-us33 {
+    line-height: 53px;
+  }
+  .blogs14,
+  .projects16,
+  .teams14 {
+    font-size: var(--font-size-lg);
+    line-height: 34px;
+  }
+  .blogs14,
+  .teams14 {
+    line-height: 53px;
+  }
+  .services37 {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+  .project-plan16,
+  .realization16,
+  .renovation-work16 {
+    font-size: var(--font-size-lg);
+    line-height: 53px;
+  }
+  .services-container {
+    flex: 1;
+  }
+  .contact36 {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+  .jakarta-indonesia-renovahome-container19 {
+    font-size: var(--font-size-lg);
+  }
+  .frame-parent25 {
+    flex-wrap: wrap;
+  }
+}

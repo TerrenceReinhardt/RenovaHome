@@ -1,0 +1,1557 @@
+.logo-icon {
+  height: 36px;
+  width: 141px;
+  object-fit: cover;
+}
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 40px;
+}
+.navbar-link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xs);
+}
+.features {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 58px;
+}
+.navbar-link1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xs);
+}
+.pricing {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 46px;
+}
+.navbar-link2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xs);
+}
+.get-started {
+  position: relative;
+  line-height: 17px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 82px;
+}
+.navbar-button {
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xl);
+  white-space: nowrap;
+  font-size: 12px;
+  color: var(--color-white);
+}
+.navbar-menu {
+  width: 434px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.navbar-content,
+.navbar-menu,
+.navbarcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.navbar-content {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navbarcontainer {
+  width: 1200px;
+  justify-content: center;
+}
+.navbar-logo-left,
+.navbar-logo-left-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navbar-logo-left {
+  flex: 1;
+  background-color: var(--color-white);
+  overflow: hidden;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.navbar-logo-left-wrapper {
+  margin-top: -9934.5px;
+  width: 1516.1px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-19xl);
+  top: -9934.5;
+  z-index: 99;
+  position: sticky;
+}
+.background {
+  width: 1912px;
+  height: 5060px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.logo-icon1 {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  z-index: 1;
+}
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.renovahome {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.frame-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.home {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  min-width: 52px;
+  z-index: 1;
+}
+.about-us,
+.services {
+  cursor: pointer;
+  z-index: 1;
+}
+.about-us {
+  width: 78px;
+  position: relative;
+  line-height: 125%;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services {
+  display: inline-block;
+  min-width: 71px;
+}
+.blog,
+.project,
+.services {
+  position: relative;
+  line-height: 125%;
+}
+.project {
+  width: 58px;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.blog {
+  flex: 1;
+  white-space: nowrap;
+}
+.menu {
+  width: 39px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+  z-index: 1;
+}
+.contact {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  min-width: 64px;
+  z-index: 1;
+}
+.menu-items {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-group,
+.menu-items-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.menu-items-wrapper {
+  width: 517px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-smi-5) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-jost);
+}
+.frame-group {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.images-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.be-reborn-anew,
+.let-your-home {
+  margin: 0;
+}
+.let-your-home-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 110%;
+  flex-shrink: 0;
+}
+.elevate-your-home,
+.renovation-dreams-brought,
+.revitalize-your-space,
+.where-vision-meets {
+  margin: 0;
+}
+.revitalize-your-space-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+}
+.sub-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.our-services {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+  font-family: var(--font-jost);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 111px;
+}
+.vector-icon {
+  height: 13.2px;
+  width: 15.1px;
+  position: relative;
+}
+.get-started1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xs);
+}
+.button,
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xl) 49px var(--padding-7xl) var(--padding-29xl);
+  background-color: var(--color-burlywood);
+  box-shadow: 0 10px 20px rgba(192, 192, 192, 0.35);
+  border-radius: var(--br-lg);
+  align-items: center;
+  justify-content: center;
+}
+.intro {
+  width: 434px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.banner,
+.banner-wrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.banner {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 142px var(--padding-33xl);
+  position: relative;
+  min-height: 758px;
+  z-index: 1;
+}
+.banner-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  font-size: 65px;
+}
+.frame-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+}
+.frame-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-serif-display);
+}
+.premium-plan {
+  width: 420px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.elevate-your-renovation {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+}
+.sub-content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+}
+.subscribe {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  line-height: 23px;
+  font-weight: 600;
+  font-family: var(--font-jost);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 85px;
+}
+.vector-icon1 {
+  height: 13.2px;
+  width: 15.1px;
+  position: relative;
+}
+.get-free-estimate {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.button1,
+.button2,
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.button2 {
+  box-shadow: 0 10px 20px rgba(192, 192, 192, 0.35);
+  border-radius: var(--br-lg);
+  background-color: var(--color-burlywood);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xl) var(--padding-12xl);
+}
+.button1,
+.content {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button1 {
+  padding: 0;
+}
+.content {
+  width: 472px;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-26xl);
+  min-width: 472px;
+  max-width: 100%;
+}
+.image-icon {
+  height: 700px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 424px;
+}
+.about-us-wrapper,
+.about-us1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.about-us1 {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  z-index: 1;
+}
+.about-us-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-serif-display);
+}
+.background-icon {
+  height: 679px;
+  width: 1199px;
+  position: relative;
+  border-radius: var(--br-51xl);
+  display: none;
+  max-width: 100%;
+}
+.about-us2,
+.what-the-people {
+  margin: 0;
+}
+.what-the-people-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.background-icon1 {
+  align-self: stretch;
+  height: 339px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image-icon1 {
+  height: 77px;
+  width: 77px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.anton-wijaya-tjong {
+  margin: 0;
+}
+.jakarta-indonesia {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+}
+.anton-wijaya-tjong-container {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+.i-couldnt-be,
+.person {
+  display: flex;
+  align-items: center;
+}
+.person {
+  width: 257px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+}
+.i-couldnt-be {
+  align-self: stretch;
+  height: 170px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+  flex-shrink: 0;
+}
+.content2,
+.testimonial-backgrounds {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content2 {
+  width: 296px;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-9xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  z-index: 1;
+  margin-top: -626px;
+}
+.testimonial-backgrounds {
+  height: 339px;
+  align-items: center;
+  max-width: 100%;
+  font-size: var(--font-size-6xl);
+}
+.background-icon2 {
+  align-self: stretch;
+  height: 339px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image-icon2 {
+  height: 77px;
+  width: 77px;
+  position: relative;
+  object-fit: cover;
+}
+.rohan-singh {
+  margin: 0;
+}
+.jakarta-indonesia1 {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-jost);
+}
+.rohan-singh-jakarta-container {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+.person1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-4xl);
+}
+.renovahome-expertise-and {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+  white-space: pre-wrap;
+}
+.content3,
+.testimonial-backgrounds1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content3 {
+  width: 296px;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-14xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  z-index: 1;
+  margin-top: -626px;
+}
+.testimonial-backgrounds1 {
+  align-items: center;
+  min-height: 339px;
+  max-width: 100%;
+}
+.background-icon3 {
+  align-self: stretch;
+  height: 339px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image-icon3 {
+  height: 77px;
+  width: 77px;
+  position: relative;
+  object-fit: cover;
+}
+.ananda-madani {
+  margin: 0;
+}
+.jakarta-indonesia2 {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+}
+.ananda-madani-jakarta-container {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+.person2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: var(--gap-4xl);
+}
+.choosing-renovahome-for {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+}
+.content4,
+.testimonial-backgrounds2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content4 {
+  width: 296px;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-33xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  z-index: 1;
+  margin-top: -626px;
+}
+.testimonial-backgrounds2 {
+  align-items: center;
+  min-height: 339px;
+  max-width: 100%;
+}
+.testimonial1 {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(277px, 1fr));
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.content1,
+.testimonial,
+.testimonial-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.content1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  z-index: 1;
+}
+.testimonial,
+.testimonial-wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.testimonial {
+  flex: 1;
+  border-radius: var(--br-51xl);
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-69xl) var(--padding-5xl);
+  z-index: 1;
+}
+.testimonial-wrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs);
+}
+.follow-our-projects {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.stay-inspired-with {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+}
+.heading {
+  width: 737px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  max-width: 100%;
+}
+.project-image-icon,
+.project-image-icon1 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  min-width: 357px;
+  min-height: 619px;
+}
+.icon,
+.icon1,
+.project-images {
+  align-self: stretch;
+  max-width: 100%;
+}
+.project-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 104px;
+}
+.icon,
+.icon1 {
+  flex: 1;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  min-width: 359px;
+  min-height: 636px;
+}
+.icon1 {
+  min-height: 635px;
+}
+.project-images1,
+.project1,
+.project2 {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.project-images1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 99px;
+}
+.project1,
+.project2 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 56px;
+}
+.project1 {
+  gap: 93px;
+  z-index: 1;
+}
+.frame-div,
+.frame-section {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-div {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 63px;
+}
+.frame-section {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xs) 11px var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-serif-display);
+}
+.want-to-know {
+  align-self: stretch;
+  position: relative;
+  line-height: 63px;
+}
+.ready-to-turn,
+.sub-title {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.ready-to-turn {
+  width: 452px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--font-jost);
+  justify-content: center;
+}
+.sub-title {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.meet-our-team {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  line-height: 23px;
+  font-weight: 600;
+  font-family: var(--font-jost);
+  color: var(--color-white);
+  text-align: center;
+}
+.vector-icon2 {
+  height: 13.2px;
+  width: 15.1px;
+  position: relative;
+}
+.button3,
+.contact2,
+.content5 {
+  display: flex;
+  align-items: center;
+}
+.contact2 {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-10xs);
+  gap: var(--gap-2xs);
+}
+.button3,
+.content5 {
+  flex-direction: column;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xl) 37px;
+  background-color: var(--color-burlywood);
+  box-shadow: 0 10px 20px #1f2022;
+  border-radius: var(--br-lg);
+  justify-content: center;
+}
+.content5 {
+  width: 569px;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.contact-wrapper,
+.contact1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact1 {
+  flex: 1;
+  border-radius: var(--br-51xl);
+  background-color: var(--color-darkslategray);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px var(--padding-xl);
+  z-index: 1;
+}
+.contact-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mini) 0 0;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-dm-serif-display);
+}
+.logo-icon2 {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  z-index: 1;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.renovahome1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.frame-parent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.building-dreams-crafting {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+  z-index: 1;
+}
+.frame-parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.div {
+  width: 16px;
+}
+.div,
+.div1,
+.div2,
+.div3 {
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.div1 {
+  width: 18px;
+  min-width: 18px;
+}
+.div2,
+.div3 {
+  min-width: 16px;
+}
+.div3 {
+  width: 17px;
+  font-size: var(--font-size-lgi);
+  line-height: 23px;
+  min-width: 17px;
+}
+.frame-parent1,
+.parent {
+  display: flex;
+  align-items: flex-start;
+}
+.parent {
+  width: 225px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.frame-parent1 {
+  width: 393px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-serif-display);
+}
+.home1,
+.utility {
+  position: relative;
+}
+.utility {
+  font-size: var(--font-size-6xl);
+  line-height: 125%;
+  font-family: var(--font-dm-serif-display);
+  color: var(--color-darkslategray);
+  display: inline-block;
+  min-width: 69px;
+  z-index: 1;
+}
+.home1 {
+  align-self: stretch;
+  letter-spacing: 0.01em;
+  line-height: 42px;
+  cursor: pointer;
+  z-index: 2;
+}
+.about-us3 {
+  height: 36px;
+  line-height: 300%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+.about-us3,
+.blogs,
+.projects,
+.teams {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.projects {
+  line-height: 42px;
+  cursor: pointer;
+  z-index: 4;
+}
+.blogs,
+.teams {
+  line-height: 300%;
+}
+.blogs {
+  height: 37px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 5;
+}
+.teams {
+  z-index: 6;
+}
+.footer-links {
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.services1 {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 125%;
+  font-family: var(--font-dm-serif-display);
+  color: var(--color-darkslategray);
+  display: inline-block;
+  min-width: 94px;
+  z-index: 1;
+}
+.project-plan,
+.realization,
+.renovation-work {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 300%;
+  cursor: pointer;
+}
+.project-plan {
+  display: inline-block;
+  min-width: 112px;
+  z-index: 2;
+}
+.realization,
+.renovation-work {
+  z-index: 3;
+}
+.realization {
+  display: inline-block;
+  min-width: 103px;
+  z-index: 4;
+}
+.services-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 161px;
+}
+.contact3 {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  min-width: 87px;
+  z-index: 1;
+}
+.jakarta-indonesia-renovahome1 {
+  line-height: 150%;
+}
+.com {
+  line-height: 300%;
+}
+.jakarta-indonesia-renovahome,
+.p {
+  margin: 0;
+}
+.p {
+  line-height: 300%;
+}
+.jakarta-indonesia-renovahome-container {
+  align-self: stretch;
+  height: 182px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.01em;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.contact-parent,
+.frame-footer,
+.services-items-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xl);
+  min-width: 168px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-serif-display);
+}
+.frame-footer,
+.services-items-parent {
+  width: 479px;
+  flex-direction: row;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.frame-footer {
+  width: 1199px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-jost);
+}
+.background-parent,
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.background-parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  padding: var(--padding-smi) 351px var(--padding-57xl) 346px;
+  gap: 88px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.homepage {
+  width: 100%;
+  height: 4989px;
+  position: relative;
+  padding: var(--padding-3xs) var(--padding-12xs) 4978px 0;
+  gap: 9865.5px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1725px) {
+  .content {
+    flex: 1;
+  }
+  .about-us1 {
+    flex-wrap: wrap;
+  }
+  .testimonial1 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(277px, 481px));
+  }
+  .frame-footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .frame-group {
+    flex-wrap: wrap;
+  }
+  .content,
+  .image-icon {
+    min-width: 100%;
+  }
+  .about-us1 {
+    gap: var(--gap-18xl);
+  }
+  .icon,
+  .icon1,
+  .project-image-icon,
+  .project-image-icon1 {
+    min-width: 100%;
+  }
+  .background-parent {
+    gap: var(--gap-25xl);
+    padding: var(--padding-xl) var(--padding-156xl) var(--padding-2xl) 173px;
+    box-sizing: border-box;
+  }
+  .homepage {
+    height: auto;
+    gap: 4933px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar-menu {
+    display: none;
+  }
+  .menu-items {
+    flex-wrap: wrap;
+  }
+  .let-your-home-container {
+    font-size: 52px;
+    line-height: 65px;
+  }
+  .banner {
+    padding: 92px var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    gap: var(--gap-mid);
+  }
+  .premium-plan {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+  .sub-content1 {
+    gap: var(--gap-base);
+  }
+  .content {
+    gap: var(--gap-3xl);
+  }
+  .about-us1 {
+    gap: var(--gap-lgi);
+  }
+  .what-the-people-container {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+  .person1,
+  .person2 {
+    flex-wrap: wrap;
+  }
+  .testimonial1 {
+    grid-template-columns: minmax(277px, 1fr);
+  }
+  .content1 {
+    gap: var(--gap-lgi);
+  }
+  .testimonial {
+    padding-top: var(--padding-38xl);
+    padding-bottom: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+  .follow-our-projects {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+  .project-images {
+    gap: var(--gap-33xl);
+  }
+  .project-images1 {
+    gap: 49px;
+  }
+  .project2 {
+    gap: var(--gap-9xl);
+  }
+  .project1 {
+    gap: 46px;
+  }
+  .frame-div {
+    gap: var(--gap-12xl);
+  }
+  .want-to-know {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+  .content5 {
+    gap: var(--gap-base);
+  }
+  .renovahome1 {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .services-items {
+    flex: 1;
+  }
+  .services-items-parent {
+    flex-wrap: wrap;
+    gap: var(--gap-11xl);
+  }
+  .background-parent {
+    gap: var(--gap-3xl);
+    padding-left: 86px;
+    padding-right: var(--padding-68xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .homepage {
+    gap: 2466px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar-menu {
+    gap: var(--gap-base);
+  }
+  .frame-container {
+    flex-wrap: wrap;
+  }
+  .about-us,
+  .blog,
+  .contact,
+  .home,
+  .project,
+  .services {
+    font-size: var(--font-size-base);
+    line-height: 20px;
+  }
+  .let-your-home-container {
+    font-size: 39px;
+    line-height: 49px;
+  }
+  .revitalize-your-space-container {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .premium-plan {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+  .elevate-your-renovation {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .what-the-people-container {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+  .choosing-renovahome-for,
+  .i-couldnt-be,
+  .renovahome-expertise-and {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .follow-our-projects {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+  .stay-inspired-with {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .project-images {
+    gap: var(--gap-7xl);
+  }
+  .project-images1 {
+    gap: var(--gap-6xl);
+  }
+  .project1 {
+    gap: var(--gap-4xl);
+  }
+  .frame-div {
+    gap: var(--gap-base);
+  }
+  .want-to-know {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+  .ready-to-turn {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .contact1 {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+  .renovahome1 {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .frame-parent3 {
+    flex-wrap: wrap;
+  }
+  .building-dreams-crafting {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .frame-parent1 {
+    gap: var(--gap-mini);
+  }
+  .utility {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+  .home1 {
+    font-size: var(--font-size-lg);
+    line-height: 34px;
+  }
+  .about-us3,
+  .blogs,
+  .projects,
+  .teams {
+    font-size: var(--font-size-lg);
+    line-height: 53px;
+  }
+  .blogs,
+  .projects,
+  .teams {
+    line-height: 34px;
+  }
+  .blogs,
+  .teams {
+    line-height: 53px;
+  }
+  .services1 {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+  .project-plan,
+  .realization,
+  .renovation-work {
+    font-size: var(--font-size-lg);
+    line-height: 53px;
+  }
+  .contact3 {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+  .jakarta-indonesia-renovahome-container {
+    font-size: var(--font-size-lg);
+  }
+}
